@@ -1,0 +1,36 @@
+* { box-sizing: border-box; }
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  background: #fff;
+  padding: 22px;
+  width: 360px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+}
+.search { margin-top: 12px; display:flex; gap:8px; justify-content:center; }
+input#city {
+  flex: 1;
+  padding: 8px 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+}
+button#btn {
+  padding: 8px 12px;
+  background: #4facfe;
+  border: none;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.result { margin-top: 18px; font-size: 16px; color:#333; }
+.result h3 { margin: 6px 0; }
